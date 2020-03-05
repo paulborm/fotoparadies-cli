@@ -11,7 +11,7 @@ const program = require('commander');
 const cli = require('../lib/cli');
 
 program
-  .option('-S, --storeId <number>', 'Add the store id')
+  .option('-S, --shopId <number>', 'Add the shop id')
   .option('-O, --orderId <number>', 'Add the order number');
 
 program.parse(process.argv);
