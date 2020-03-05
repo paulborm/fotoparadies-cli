@@ -1,0 +1,23 @@
+{
+  "name": "fotoparadies-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/cli.js",
+  "bin": {
+    "fotoparadies": "./bin/fotoparadies.js"
+  },
+  "keywords": [],
+  "author": "Paul Borm (https://www.paulborm.de)",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^4.1.1",
+    "inquirer": "^7.0.6"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^1.19.1"
+  }
+}
