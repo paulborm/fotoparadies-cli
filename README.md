@@ -2,7 +2,7 @@
 
 # Fotoparadies CLI
 
-> Fotoparadies CLI is an **un-official** tool for checking the status of an order at dm Fotoparadies directly in the terminal.
+> Fotoparadies CLI is an **un-official** tool for checking the status of an order at dm Foto-Paradies directly in the terminal.
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@
 **Global**
 
 ```sh
-npm install -g fotoparadies-cli
+npm install fotoparadies-cli -g
 ```
 
 **Via npx**
