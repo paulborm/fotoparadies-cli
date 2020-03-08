@@ -6,9 +6,14 @@
   "bin": {
     "fotoparadies": "./bin/fotoparadies.js"
   },
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "node.js"
+  ],
   "author": "Paul Borm (https://www.paulborm.de)",
-  "license": "ISC",
+  "license": "MIT",
+  "homepage": "https://github.com/paulborm/fotoparadies-cli#readme",
+  "repository": "github:paulborm/fotoparadies-cli",
   "dependencies": {
     "axios": "^0.19.2",
     "chalk": "^3.0.0",
