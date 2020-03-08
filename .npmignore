@@ -1,0 +1,5 @@
+.env
+.editorconfig
+.nvmrc
+.prettierrc
+.eslintrc.json
