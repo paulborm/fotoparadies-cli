@@ -9,11 +9,13 @@
 
 const program = require('commander');
 const cli = require('../lib/cli');
+const pkg = require('../package.json');
 
 program
-  .option('-S, --shopId <number>', 'Add the shop id')
-  .option('-O, --orderId <number>', 'Add the order number');
-
-program.parse(process.argv);
+  .version(pkg.version)
+  .requiredOption('-S, --shopNo <number>', 'add the shop number')
+  .requiredOption('-O, --orderNo <number>', 'add the order number')
+  .option('-d, --debug', 'output debugging')
+  .parse(process.argv);
 
 cli.execute(program);
