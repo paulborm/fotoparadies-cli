@@ -10,7 +10,10 @@
   "author": "Paul Borm (https://www.paulborm.de)",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.2",
     "commander": "^4.1.1",
+    "dayjs": "^1.8.21",
+    "dotenv": "^8.2.0",
     "inquirer": "^7.0.6"
   },
   "devDependencies": {
