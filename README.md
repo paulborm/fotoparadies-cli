@@ -1,16 +1,18 @@
+[![NPM version](https://img.shields.io/npm/v/fotoparadies-cli.svg)](https://www.npmjs.com/package/fotoparadies-cli)
+
 # Fotoparadies CLI
 
 > Fotoparadies CLI is an **un-official** tool for checking the status of an order at dm Fotoparadies directly in the terminal.
 
-## Table of contents
+## Table of Contents
 
-- [Install](#Install)
-- [Setup](#Setup)
-- [Usage](#Usage)
-- [Directories](#Directories)
-- [Legal](#Legal)
+1. [Installation](#installation)
+2. [Setup](#setup)
+3. [Usage](#usage)
+4. [Directory Structure](#directory-structure)
+5. [Legal](#legal)
 
-## Install
+## Installation
 
 **Global**
 
@@ -24,7 +26,7 @@ npm install -g fotoparadies-cli
 npx fotoparadies-cli
 ```
 
-See [Usage](#Usage) for further instructions
+> See [Usage](#Usage) for further instructions
 
 ## Setup
 
@@ -46,15 +48,15 @@ echo 'export FOTOPARADIES_API_URL=<API_URL>' >> ~/.zshenv
 
 ## Usage
 
-Use it locally on your machine or via npx.
-
 ```sh
 fotoparadies --shopNo 1234 --orderNo 123456
 ```
 
+> Install it on your machine or use via npx. See [Installation](#Installation)
+
 **Options**
 
-| option                 | Description               |
+| Option                 | Description               |
 | ---------------------- | ------------------------- |
 | -S, --shopNo <number>  | add the shop number       |
 | -O, --orderNo <number> | add the order number      |
@@ -62,12 +64,12 @@ fotoparadies --shopNo 1234 --orderNo 123456
 | -d, --debug            | output debugging          |
 | -h, --help             | output usage information  |
 
-## Directories
+## Directory Structure
 
 - `lib/` is intended for code that can run as-is
 - `bin/` is for any executable scripts, or compiled binaries used with, or built from your module.
 
-Original description from [Michael J. Ryan](https://gist.github.com/tracker1/59f2c13044315f88bee9)
+> Directory Structure for JavaScript/Node Projects described [here](https://gist.github.com/tracker1/59f2c13044315f88bee9) by Michael J. Ryan.
 
 ## Legal
 
