@@ -71,4 +71,4 @@ Original description from [Michael J. Ryan](https://gist.github.com/tracker1/59f
 
 ## Legal
 
-This code is in no way affiliated with, authorized, maintained, sponsored or endorsed by Fotoparadies, dm-drogerie markt GmbH + Co. KG or any of its affiliates or subsidiaries. This is an independent and unofficial API. Use it at your own risk. I will not provide any infrastructural or personal information of the original service.
+This code is in no way affiliated with, authorized, maintained, sponsored or endorsed by dm Foto-Paradies, dm-drogerie markt or any of its affiliates or subsidiaries. This is an independent and unofficial API. Use it at your own risk. I will not provide any infrastructural or personal information of the original service.
