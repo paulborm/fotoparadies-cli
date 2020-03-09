@@ -3,6 +3,10 @@
   "version": "1.0.3",
   "description": "",
   "main": "./lib/cli.js",
+  "files": [
+    "bin/",
+    "lib/"
+  ],
   "bin": {
     "fotoparadies": "./bin/fotoparadies.js"
   },
