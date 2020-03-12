@@ -49,20 +49,18 @@ echo 'export FOTOPARADIES_API_URL=<API_URL>' >> ~/.zshenv
 ## Usage
 
 ```sh
-fotoparadies --shopNo 1234 --orderNo 123456
+fotoparadies status --shopNo 1234 --orderNo 123456
 ```
 
 > Install it on your machine or use via npx. See [Installation](#Installation)
 
-**Options**
-
-| Option                 | Description               |
-| ---------------------- | ------------------------- |
-| -S, --shopNo <number>  | add the shop number       |
-| -O, --orderNo <number> | add the order number      |
-| -V, --version          | output the version number |
-| -d, --debug            | output debugging          |
-| -h, --help             | output usage information  |
+| Command | Option                 | Description               |
+| ------- | ---------------------- | ------------------------- |
+|         | -V, --version          | output the version number |
+|         | -h, --help             | output usage information  |
+| status: |                        | get the order status      |
+|         | -S, --shopNo <number>  | add the shop number       |
+|         | -O, --orderNo <number> | add the order number      |
 
 ## Directory Structure
 
